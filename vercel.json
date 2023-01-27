@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
       {
           "src": "./bin/www",
@@ -8,7 +9,7 @@
   "routes": [
       {
         "src": "/(.*)",
-        "dest": "./bin/www"
+        "dest": "/"
       }
   ]
 }
